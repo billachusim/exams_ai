@@ -1,0 +1,71 @@
+# Flutter/Dart related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android related
+android/app/key.properties
+android/key.properties
+android/local.properties
+android/.gradle/
+android/app/src/main/java/io/flutter/plugins/
+android/app/src/main/kotlin/io/flutter/plugins/
+*.jks
+*.keystore
+*.apk
+*.aab
+
+# iOS/macOS related
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.[mh]
+ios/Runner/GeneratedPluginRegistrant.swift
+ios/Pods/
+ios/.symlinks/
+ios/Podfile.lock
+# Exclude auto-generated icons if they were just generated for current build
+# But keep them if they are the primary source icons.
+# Usually in Flutter we check them in if they are not generated into 'build/'
+
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedCodeConfig.xcconfig
+macos/Runner/GeneratedPluginRegistrant.[mh]
+macos/Runner/GeneratedPluginRegistrant.swift
+macos/Pods/
+macos/.symlinks/
+macos/Podfile.lock
+
+# Linux related
+linux/flutter/ephemeral/
+
+# Windows related
+windows/flutter/ephemeral/
+windows/flutter/generated_plugins.cmake
+
+# IDE related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Tool specific
+.artifacts/
+.metadata
+analysis_results.artifact.md
+research_notes.artifact.md
+experiment_results.artifact.md
+implementation_plan.artifact.md
+walkthrough.artifact.md
+task.artifact.md
+
+# Misc
+.DS_Store
+*.log
