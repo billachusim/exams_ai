@@ -116,8 +116,8 @@ class ApiClient {
     final res = await _call('verify-purchase', {
       'platform': platform,
       'productId': productId,
-      if (purchaseToken != null) 'purchaseToken': purchaseToken,
-      if (transactionId != null) 'transactionId': transactionId,
+      'purchaseToken': ?purchaseToken,
+      'transactionId': ?transactionId,
     });
     final exp = res['expiresAt'];
     return exp == null ? null : DateTime.tryParse('$exp')?.toLocal();
